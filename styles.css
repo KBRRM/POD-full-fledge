@@ -1,0 +1,122 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #6f1d1b;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.header-text p {
+    margin: 0;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.game-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.my-playgame {
+    background-color: #f9a825;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.game-list {
+    padding: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.game-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-name {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.game-time {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.game-status {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-status.timeout {
+    background-color: #757575;
+}
+
+footer {
+    background-color: #432818;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav i {
+    font-size: 1.5em;
+}
+
+.nav span {
+    font-size: 0.8em;
+}
