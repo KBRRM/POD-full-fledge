@@ -1,122 +1,81 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #bb9457; /* Main background color */
     margin: 0;
-    background-color: #f0f0f0;
-}
-
-header {
-    background-color: #6f1d1b;
-    padding: 10px;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    height: 100vh;
 }
 
-.header-content {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 50px;
-    margin-right: 10px;
-}
-
-.header-text p {
-    margin: 0;
-}
-
-.game-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-}
-
-.game-header h1 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.my-playgame {
-    background-color: #f9a825;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-}
-
-.game-list {
+.login-container {
+    background-color: #6f1d1b; /* Form background color */
     padding: 20px;
-    background-color: white;
-    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.game-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+.logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
 }
 
-.game-info {
+.login-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.game-name {
-    font-size: 1em;
-    font-weight: bold;
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
 }
 
-.game-time {
-    font-size: 0.9em;
-    color: #777;
+.input-group label {
+    color: #ffe6a7;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
 }
 
-.game-status {
-    background-color: #d32f2f;
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #99582a;
+    border-radius: 5px;
+    background-color: #ffe6a7;
+    color: #432818;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #008080; /* Button background color */
     color: white;
+    padding: 10px 20px;
     border: none;
-    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
-.game-status.timeout {
-    background-color: #757575;
+.login-button:hover {
+    background-color: #006666;
 }
 
-footer {
-    background-color: #432818;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.forgot-password, .register, .guest {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav a {
-    color: white;
+.forgot-password a, .register a, .guest a {
+    color: #ffe6a7;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.nav i {
-    font-size: 1.5em;
-}
-
-.nav span {
-    font-size: 0.8em;
+.forgot-password a:hover, .register a:hover, .guest a:hover {
+    text-decoration: underline;
 }
